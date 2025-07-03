@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "animegirl",
+  name: "hotpic",
   version: "1.0.0",
   hasPermssion: 0,
   credits: "𝐀𝐡𝐚𝐬𝐚𝐧𝐮𝐥 𝐇𝐚𝐪𝐮𝐞 𝐀𝐤𝐚𝐬𝐡",
