@@ -16,13 +16,13 @@
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "Rizzu",
+    "BOTNAME": "EREN",
     "PREFIX": "/",
     "ADMINBOT": [
-        "100040426712109"
+        "61575289283943"
     ],
     "NDH": [
-        "100037743553265"
+        "61575289283943"
     ],
     "DATABASE": {
         "sqlite": {
