@@ -3,9 +3,9 @@ module.exports.config = {
   version: "1.0.0",
   hasPermssion: 0,
   credits: "𝐀𝐡𝐚𝐬𝐚𝐧𝐮𝐥 𝐇𝐚𝐪𝐮𝐞 𝐀𝐤𝐚𝐬𝐡",
-  description: "Random Loli Pics",
-  commandCategory: "nsfw",
-  usages: "lolilewd",
+  description: "Random Islamic Pictures",
+  commandCategory: "image",
+  usages: "islamic",
   cooldowns: 5,
   dependencies: {
     "request":"",
