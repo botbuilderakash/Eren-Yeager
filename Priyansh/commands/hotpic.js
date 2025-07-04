@@ -3,9 +3,9 @@ module.exports.config = {
   version: "1.0.0",
   hasPermssion: 0,
   credits: "𝐀𝐡𝐚𝐬𝐚𝐧𝐮𝐥 𝐇𝐚𝐪𝐮𝐞 𝐀𝐤𝐚𝐬𝐡",
-  description: "Random Loli Pics",
-  commandCategory: "nsfw",
-  usages: "lolilewd",
+  description: "Random Hot Anime Girl",
+  commandCategory: "anime",
+  usages: "hotpic",
   cooldowns: 5,
   dependencies: {
     "request":"",
@@ -101,7 +101,7 @@ const fs = global.nodemodule["fs-extra"];
 "https://i.ibb.co/GQZKQgbY/Mikasa-Ackerman-The-Attack-of-Titans.jpg" 
    
     ];
-      var callback = () => api.sendMessage({body:`Random Loli Pic\nNumber of photos: ${link.length}`,attachment: fs.createReadStream(__dirname + "/cache/1.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.jpg"), event.messageID);  
+      var callback = () => api.sendMessage({body:`Random hot anime pic.pics are collected from internet by your Dad.\nNumber of photos: ${link.length}`,attachment: fs.createReadStream(__dirname + "/cache/1.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.jpg"), event.messageID);  
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/1.jpg")).on("close",() => callback()); 
     
 
