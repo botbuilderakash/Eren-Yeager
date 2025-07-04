@@ -60,7 +60,7 @@ const fs = global.nodemodule["fs-extra"];
 "https://i.ibb.co/mCwnkfyN/on-Twitter-in-2022-Islamic-pictures-Mecca.jpg"
    
     ];
-      var callback = () => api.sendMessage({body:`Random Loli Pic\nNumber of photos: ${link.length}`,attachment: fs.createReadStream(__dirname + "/cache/1.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.jpg"), event.messageID);  
+      var callback = () => api.sendMessage({body:`Islamic Image\nNumber of photos: ${link.length}`,attachment: fs.createReadStream(__dirname + "/cache/1.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.jpg"), event.messageID);  
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/1.jpg")).on("close",() => callback()); 
     
 
