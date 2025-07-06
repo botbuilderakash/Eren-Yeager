@@ -8,7 +8,7 @@
 
     version: "1.0",
 
-    author: "aminulsordar",
+    author: "𝐀𝐤𝐚𝐬𝐡",
 
     countDown: 10,
 
