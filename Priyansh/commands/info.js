@@ -5,9 +5,9 @@ const request = require('request');
 
 module.exports = {
     config: {
-        name: "info",
+        name: "info2",
         version: "1.3",
-        author: "𝐀𝐌𝐈𝐍𝐔𝐋-𝐒𝐎𝐑𝐃𝐀𝐑",
+        author: "𝐀𝐤𝐚𝐬𝐡",
         countDown: 20,
         role: 0,
         shortDescription: {
@@ -29,15 +29,15 @@ module.exports = {
         try {
             const botName = "[ Eren Bot]";
             const botPrefix = "/";
-            const authorName = "『😽👉Ahasanul Haque Akash👈😽』";
-            const teamName = "🚀 Github Team 🚀";
+            const authorName = "『😽👉𝐀𝐡𝐚𝐬𝐚𝐧𝐮𝐥 𝐇𝐚𝐪𝐮𝐞 𝐀𝐤𝐚𝐬𝐡👈😽』";
+            const teamName = "🚀 𝐍𝐨 𝐓𝐞𝐚𝐦 🚀";
             const authorFB = "https://www.facebook.com/youareinmygenjutsu";
-            const address = "Barishal,𝐁𝐀𝐍𝐆𝐋𝐀𝐃𝐄𝐒𝐇";
+            const address = "𝐁𝐚𝐫𝐢𝐬𝐡𝐚𝐥,𝐁𝐀𝐍𝐆𝐋𝐀𝐃𝐄𝐒𝐇";
             const religion = "𝐈𝐒𝐋𝐀𝐌";
             const gender = "𝐌𝐀𝐋𝐄";
             const relation = "𝐒𝐈𝐍𝐆𝐋𝐄";
             const work = "𝐒𝐓𝐔𝐃𝐘";
-            const whatsapp = "nopee";
+            const whatsapp = "𝐍𝐨𝐩𝐞𝐞";
 
             const now = moment().tz('Asia/Dhaka');
             const date = now.format('DD/MM/YYYY');
@@ -53,7 +53,7 @@ module.exports = {
 
             const infoMessage = `
 ╔═══════✿𝐁𝐎𝐓 𝐈𝐍𝐅𝐎✿══════╗
-        💐আ্ঁস্ঁসা্ঁলা্ঁমু্ঁ💚আ্ঁলা্ঁই্ঁকু্ঁম্ঁ💐
+        💐আসসালামু আলাইকুম💐
 ╚══════════════════════╝
 
 ➤ 𝗕𝗢𝗧 𝗔𝗗𝗠𝗜𝗡 : ${authorName}
